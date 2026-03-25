@@ -760,7 +760,7 @@
 			repositoryURL = "https://github.com/zelloptt/ios-mobile-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.2;
+				minimumVersion = 2.0.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
