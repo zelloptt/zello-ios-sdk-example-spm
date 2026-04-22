@@ -12,6 +12,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     requestMicrophonePermission()
     requestBluetoothPermission()
     requestLocationPermission()
+
+    // We can start the SDK at this point
+    _ = ZelloRepository.instance
+
     return true
   }
 
